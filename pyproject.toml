@@ -1,5 +1,5 @@
 [project]
-name = "ai-flashcards"
+name = "ai-flashcards-api"
 version = "0.1.0"
 description = ""
 authors = [
