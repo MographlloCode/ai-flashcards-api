@@ -9,10 +9,10 @@ sem = asyncio.Semaphore(10)
 
 # Mantendo sua config de modelos (ajuste conforme disponibilidade)
 MODEL_CONFIG = {
-    "extractor": "llama-3.1-8b-instant",
+    "extractor": "qwen/qwen3-32b",
     "architect": "llama-3.3-70b-versatile",
     "builders": {
-        "iniciante": "qwen/qwen3-32b", 
+        "iniciante": "meta-llama/llama-4-scout-17b-16e-instruct", 
         "intermediario": "meta-llama/llama-4-scout-17b-16e-instruct",
         "avancado": "meta-llama/llama-4-scout-17b-16e-instruct",
         "expert_primary": "llama-3.3-70b-versatile",
